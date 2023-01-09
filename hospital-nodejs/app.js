@@ -140,7 +140,7 @@ app.use('/', users);
 app.use('/', patients);
 app.use('/', settings);
 app.use('/', diseases);
-app.use('/', rooms);
+// app.use('/', rooms);
 
 var timestamp = new Date().getTime();
 
